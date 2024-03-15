@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: black; 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c4302b;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header form {
+    float: right;
+}
+
+header input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: black; 
+}
+
+header button {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+main {
+    margin: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.videolar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.videolar ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.videolar ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.videolar ul li a img {
+    width: 200px;
+    height: 120px;
+}
+
+.videolar ul li h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.videolar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+
+.videolar ul li {
+    margin: 10px;
+    width: calc(10%); 
+    text-align: center;
+}
+
+
+.videolar ul li h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+
+.kategoriler ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kategoriler ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.kategoriler ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+footer {
+    background-color: #c4302b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
